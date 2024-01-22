@@ -1,0 +1,105 @@
+@media screen and (max-width:900px){
+    body{
+        max-width: 390px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .banner-container {
+        padding: 32px 24px;
+        background-position: center;
+        background-size: cover;
+    }
+    .banner-container h2{
+        font-size: 22px;
+    }
+    .banner-container p{
+        font-size: 14px;
+    }
+    .banner-container form{
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .nav-bar ul{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .nav-bar ul li{
+        margin-top: 10px;
+    }
+    .banner-container input[type="search"],
+.banner-container select {
+    width: 100%;
+    margin-bottom: 16px ;
+}
+.banner-container button{
+    width: 100%;
+}
+
+/* tours section  */
+.tours-container{
+    flex-direction: column;
+}
+.tours-container img{
+    width: 100%;
+    margin-top: 24px;
+}
+.tours-text{
+    max-width: 335px;
+}
+.tours-text > h3{
+    text-align: left;
+    font-size: 25px;
+}
+
+/* destination section */
+.destination-img{
+    grid-template-columns: 1fr;
+}
+.item1, .item2, .item3, .item4, .item5,.item6, .item7{
+    padding: 75px 0;
+    width: 100%;
+    grid-column: 2 span;
+}
+
+/* why choose us section */
+
+.choose-us-container{
+    flex-direction: column;
+}
+.card p{
+    max-width: 300px;
+}
+
+/* discount section */
+
+.package-card-one, .package-card-two , .package-card-three{
+    justify-content: center;
+}
+.mini-icons{
+    display: block;
+}
+.mini-icons p{
+    margin-right: 0;
+}
+
+/* simple place to get lost section */
+.get-lost{
+    flex-direction: column;
+    max-width: 336px;
+    margin: 0 auto;
+}
+.get-lost h3{
+    max-width: 248px;
+}
+.section-title{
+    font-size: 20px;
+}
+
+.get-lost-img video{
+    width: 100%;
+}
+
+
+}
